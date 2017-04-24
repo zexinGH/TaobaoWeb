@@ -1,0 +1,187 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #eee;
+	font-family: "微软雅黑";
+}
+
+a:link{
+	text-decoration: none;
+	color: black;
+}
+
+#container{
+	width: 100%;
+	height: 100%;
+	max-width: 640px;
+	margin: 0px auto;
+	
+}
+
+#heading{
+	width: 100%;
+	height: 44px;
+	background-color: white;
+	line-height: 44px;
+	position: relative;
+}
+
+#heading #back{
+	position: absolute;
+	left: 10px;
+	top: 0px;
+	line-height: 40px;
+	font-size: 20px;
+}
+
+#heading #title{
+	line-height: 44px;
+	font-size: 18px;
+	text-align: center;
+}
+
+#order {
+	background: #fff;
+	padding-bottom: 10px;
+}
+#bodying{
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+	
+}
+#bodying #shopcar_top{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid lightgray;
+}
+
+li{
+	list-style: none;
+}
+
+#bodying .order_centent{
+	width: 100%;
+	height: 90px;
+	position: relative;
+	margin-top: 10px;
+}
+
+#bodying .img{
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	border: 1px solid #ccc;
+}
+#bodying img{
+	width: 100%;
+	height: auto;
+}
+
+#bodying .name{
+	width: 60%;
+	height: 40px;
+	position: absolute;
+	top: 8px;
+	left: 100px;
+}
+
+@media only screen and (max-width: 640px) {
+	#bodying .name span{
+		font-size: 12px;
+	}
+	#bodying .num{
+		font-size: 12px;
+	}
+}
+
+#bodying .pay{
+	position: absolute;
+	bottom: 0px;
+	left: 100px;
+	color: #dd2727;
+}
+
+#bodying .num{
+	position: absolute;
+	right: 10px;
+	top: 40px;
+}
+
+#bodying .num .number {
+	color: #dd2727;
+}
+
+#bodying #order_body{
+	width: 100%;
+	height: auto;
+}
+
+#bodying #order_body p {
+	margin: 0px;
+}
+
+#bodying #order_body .peisong{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 8px;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+.p1{
+	float: left;
+}
+
+.p2{
+	float: right;
+}
+
+#bodying #order_body .liuyan{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 8px;
+	background-color: #fff;
+}
+#bodying #order_body .liuyan label {
+	margin: 0px;
+	font-weight: normal;
+}
+#bodying #order_body .liuyan input{
+	border: 0px solid;
+	font-size: 12px;
+	color: #269ABC;
+	
+}
+
+#bodying #order_body .total{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 8px;
+	background-color: #fff;
+}
+
+#bodying #order_body .total .tijiao{
+	width: 80px;
+	height: 30px;
+	border-radius: 4px;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+	background: #f23030;
+	color: #fff;
+	margin-top: 10px;
+}
+
+#bodying #order_body .total .p3{
+	padding-left: 10px;
+}

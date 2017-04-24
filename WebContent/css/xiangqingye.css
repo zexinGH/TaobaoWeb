@@ -1,0 +1,296 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+a,link{
+	text-decoration: none;
+	color: black;
+}
+body{
+	background: #eee;
+	font-family: "微软雅黑";
+}
+#container{
+	width: 100%;
+	max-width: 640px;
+	margin: 0px auto;
+	background: #eee;
+}
+
+#heading{
+	width: 100%;
+	padding: 0px 2%;
+	height: auto;
+	background: #fff;
+}
+
+#jiesao{
+	width: 100%;
+}
+
+#jiesao #sp_kd{
+	color: #67B168;
+	margin: 0px auto;
+}
+#jiesao #sp_kd div:nth-child(2) {
+	text-align: center;
+}
+#jiesao #sp_kd div:nth-child(3) {
+	text-align: right;
+}
+
+#jiesao #sp_pay{
+	color: #dd2727;
+	font-size: 20px;
+}
+
+#bodying{
+	width: 100%;
+}
+
+#bodying #row1 {
+	margin: 0px auto;
+	width: 100%;
+	line-height: 34px;
+	height: 36px;
+	border: 1px solid #ccc;
+	background: #fff;
+	border-width: 1px 0px 1px 0px;
+}
+#bodying #row1 div:nth-child(2),
+#bodying #row1 div:nth-child(3) {
+	text-align: center;
+}
+#bodying #row1 div:nth-child(4) {
+	text-align: right;
+}
+
+#bodying .row img{
+	width: 15px;
+	height: 15px;
+	vertical-align: middle;
+}
+#bodying #row1 p {
+	display: inline-block;
+	margin: 0px;
+}
+@media only screen and (max-width: 640px) {
+	#bodying .row .col-xs-3{
+		margin: 0px auto;
+		padding: 0px;
+		font-size: 8px;
+	}
+}
+
+#bd_container{
+	margin-top: 10px;
+	padding: 10px;
+	height: auto;	
+	background: #fff;
+}
+
+#Logo{
+	width: 100%;
+	height: 80px;
+	position: relative;
+}
+
+
+#Logo img{
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border: 1px solid #ddd;
+}
+
+#Logo span{
+	position: absolute;
+	top: 2px;
+	left: 100px;
+}
+
+#message{
+	width: 100%;
+	margin: 0px auto;
+	margin-top: 15px;
+	padding: 0px;
+	font-size: 13px;
+}
+
+#btn{
+	width: 100%;
+	height: auto;
+	margin-top: 5px;
+}
+#btn .btn1{
+	float: left;
+	width: 48%;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding: 5px 0px;
+	border: 1px solid #ccc;
+	text-align: center;
+	border-radius: 4px;
+}
+#btn .btn1 span {
+	padding-left: 5px;
+}
+
+.overflow{
+	overflow: auto;
+	zoom: 1;
+}
+
+#other{
+	width: 100%;
+	margin: 0px auto;
+	padding: 0px;
+	margin-top: 15px;
+	background: #fff;
+}
+#other:after{
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0px;
+	visibility: hidden;
+}
+
+#other p {
+	padding: 10px 0px 0px 10px;
+}
+#other .col-xs-4 p {
+	padding: 5px 0px 0px 0px;
+	color: #dd2727;
+}
+
+#other .centent a {
+	padding-top: 5px;
+	display: block;
+}
+
+#other .col-xs{
+	width: 33.3%;
+}
+
+
+#other .centent{
+	width: 100%;
+	font-size: 10px;
+}
+
+#other .centent img{
+	width: 100%;
+}
+
+#p{
+	margin-left: 20px;
+}
+
+#footer {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin: 0px auto;
+	margin-top: 20px;
+	display: block;
+	position: relative;
+	text-align: center;
+}
+
+#footer .row{
+	width: 100%;
+	height: 20px;
+	position: absolute;
+	top: 20px;	
+	left: -5px;
+}
+
+#footer p{
+	width: 100%;
+	font-size: 8px;
+	color: #7FFFD4;
+	position: absolute;
+	top: 50%;
+}
+
+@media only screen and (max-width: 640px) {
+	#footer .row div{
+		margin: 0px auto;
+		padding: 0px;
+		font-size: 8px;
+	}
+}
+
+#float{
+	position: fixed;
+	width: 100%;
+	left: auto;
+	max-width: 640px;
+	height: 50px;
+	bottom: 0px;
+	border-top: 1px solid #E5E5E5;
+	background: #fff;
+}
+
+#float .float1{
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	background-color: firebrick;
+	text-align: center;
+	float: left;
+	cursor: pointer;
+	display: none;
+}
+
+#float .float1 img{
+	width: 70%;
+	height: 70%;
+	margin-top: 5px;
+	
+	
+}
+#float .float2{
+	width: 20%;
+	height: 50px;
+	background: #66AFE9;
+	text-align: center;
+	line-height: 50px;
+	float: left;
+	cursor: pointer;
+	color: #fff;
+}
+
+#float .float3,
+#float .float4 {
+	width: 40%;
+	height: 50px;
+	background: #FF9500;
+	text-align: center;
+	line-height: 50px;
+	float: left;
+	cursor: pointer;
+	color: #fff;
+}
+
+#float .float4{
+	background: #DD2727;
+}
+#lunbo .carousel-inner img {
+	margin: 0 auto;
+}
+#lunbo .carousel-indicators li {
+	background: #c4c4c4;
+	border-color: #c4c4c4;
+}
+#lunbo .carousel-indicators li.active {
+	background: #DD2727;
+	border: 0;
+}
+#sp_name {
+	padding-top: 10px;
+}

@@ -1,0 +1,302 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: "Î¢ÈíÑÅºÚ";
+}
+
+a:link{
+	text-decoration: none;
+	color: black;
+}
+
+#centent{
+	width: 100%;
+	height: 100%;
+	max-width: 640px;
+	margin: 0px auto;
+		background-color:#eee;
+}
+
+#heading{
+	width: 100%;
+	max-width:640px;
+	height: 45px;
+	background-color: white;
+	border:1px solid;
+	border-color: #eee;
+	position: fixed;
+	top:0px;
+	z-index:999;
+}
+
+#heading #back{
+	width: 30px;
+	height: 30px;
+	line-height: 40px;
+	font-size: 20px;
+	float: left;
+	text-align: center;
+}
+
+#heading #title{
+	line-height: 40px;
+	font-size: 20px;
+	text-align: center;
+
+}
+
+#bodying1{
+	width: 100%;
+	height: auto;
+	display: none;
+	
+}
+
+#bd_centent{
+	width: 50%;
+	margin: 0px auto;
+	text-align: center;
+	margin-top: 90px;
+}
+
+#bd_centent #img{
+	width: 25%;
+	height: 25%;
+	margin: 0px auto;
+	padding: 0px;
+	background-color: #CCCCCC;
+	border-radius: 100%;
+	box-sizing: inherit;
+}
+
+#bd_centent #img img{
+	width: 70%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 640px){
+	#bd_centent .t1{
+		font-size: 14px;
+	}
+	#bd_centent .t2{
+		font-size: 10px;
+		color: #46B8DA;
+	}
+}
+
+#bd_centent .text{
+	margin-top: 20px;
+}
+
+#bodying2{
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+	background-color: white;
+	margin-top:50px;
+}
+
+#shopcar{
+	width: 100%;
+	background-color: #eee;
+}
+
+#shopcar li{
+	background-color: white;
+}
+
+#bodying2 #shopcar_top{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid lightgray;
+}
+
+#bodying2 #shopcar_top #editShop{
+	float: right;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+li{
+	list-style: none;
+}
+
+#bodying2 .shopcar{
+	width: 100%;
+	height: 90px;
+	position: relative;
+	margin-top: 7px;
+	border: 1px solid lightgray;
+}
+
+#bodying2 .box{
+	position: absolute;
+	left: 0px;
+	top: 30px;
+	
+}
+
+#bodying2 .img{
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	left: 20px;
+	top: 0px;
+}
+#bodying2 img{
+	width: 100%;
+	height: auto;
+}
+
+#bodying2 .name{
+	width: 60%;
+	height: 40px;
+	position: absolute;
+	top: 0px;
+	left: 100px;
+}
+
+#bodying2 .buyCount{
+	width: 60%;
+	height: 40px;
+	position: absolute;
+	top: 0px;
+	/*left: 100px;*/
+	left: 40%;
+}
+
+#bodying2 .buydesc{
+	position: absolute;
+	height: 20px;
+	top: 25px;
+	left: 100px;
+	font-size: 12px;
+	color: gray;
+}
+
+@media only screen and (max-width: 640px) {
+	#bodying2 .name span{
+		font-size: 8px;
+	}
+	#bodying2 .num{
+		font-size: 8px;
+	}
+}
+
+#bodying2 .pay{
+	position: absolute;
+	bottom: 0px;
+	left: 100px;
+	color: orange;
+}
+
+#bodying2 .num{
+	position: absolute;
+	right: 0px;
+	top: 30px;
+}
+
+#bodying2 .del{
+	position: absolute;
+	right: 0px;
+	top: 50px;
+}
+
+#bodying2 .delbtn{
+	background: red;
+	border: none;
+}
+
+#bodying2 .shopcar_bottom{
+	width: 100%;
+	max-width: 640px;
+	height: 40px;
+	margin-top: 60px;
+	position: fixed;
+	bottom: 0px;
+	border: 1px solid lightgray;
+}
+
+#bodying2 .shopcar_bottom .allcheck{
+	float: left;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+
+#bodying2 .shopcar_bottom .total{
+	float: right;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+
+#bodying2 .shopcar_bottom .settlenment{
+	float: right;
+	margin-top: 2px;
+	margin-right: 5px;
+}
+
+.null{
+	width:100%;
+	height:50px;
+}
+
+
+
+
+
+p.p_num {
+    width: 110px;
+    height: 24px;
+    position: relative;
+    margin-top: 2px;
+}
+ 
+span.sy_minus,span.sy_plus {
+    width: 15px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 0px;
+    font-size: 18px;
+    /*border: solid 1px #d0d0d0;*/
+    /*background: #ebebeb;*/
+    cursor: pointer;
+    border-top: none;
+    border-bottom: none;
+    color: #444444;
+}
+ 
+span.sy_minus {
+    left: 0px;
+}
+ 
+span.sy_plus {
+    right: 0px;
+}
+
+input.sy_num {
+    width: 74px;
+    height: 23px;
+    line-height: 24px;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 0px;
+    left: 17px;
+    border: none;
+}
+ 
+span.sy_num {
+    padding: 5px 8px;
+    border: solid 1px #d0d0d0;
+    border-left: none;
+    border-right: none;
+    cursor: pointer;
+}

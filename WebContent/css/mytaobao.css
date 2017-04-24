@@ -1,0 +1,148 @@
+#container{
+	width: 100%;
+	max-width: 640px;
+	margin: 0 auto;
+	padding: 0px;
+	overflow: hidden;
+}
+.row{
+	margin: 0px;
+	width: 100%;
+}
+#xiangqing{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+#xiangqing .col-xs-2{
+	padding: 0px;
+}
+#xiangqing .btn{
+	box-shadow:2px 2px 5px #C0C0C0;
+	margin: 5px 0 5px 10px;
+	border: 1px solid #C0C0C0;
+	font-family: "微软雅黑";	
+}
+#xiangqing .btn2{
+	font-weight: bold;
+	font-family: "微软雅黑";
+	position: relative;
+	left: 30px;
+}
+#xiangqing .col-xs-3{
+	position: relative;
+	top: 10px;
+	padding: 0px;
+}
+#xiangqing .label{
+	font-family: "微软雅黑";
+	font-size: 20px;
+	margin: auto;
+	color: #D43F3A;
+}
+#header{
+	width: 100%;
+	height: 270px;
+	background-image:url(../img/xiangqing/caodi.jpg);
+	background-size:100% 80%;
+	background-repeat: no-repeat;	
+}
+#header #touxiang{
+	max-width: 640px;
+	width: 100%;
+	max-height: 100px;
+	height: 100%;
+	margin: 0px;
+	padding: 0;
+	position: relative;
+	top: 170px;
+
+}
+#header #touxiang .col-xs-5{
+	margin: 0;
+	padding: 0;
+}
+#header #touxiang img{
+	max-width: 80px;
+	width: 100%;
+	max-height: 80px;
+	height: 100%;
+	margin: 10px 5px 5px 10px;
+	border-radius:50px;
+	border: 3px solid white;
+}
+#header #touxiang span{
+	position: relative;
+	top: 15px;
+}
+#header #touxiang .col-xs-7{
+	padding: 0px;
+	position: relative;
+	top: 40px;
+}
+#header #touxiang a li{
+	color: #000000;
+	text-align: center;
+	list-style: none;
+	font-family: "微软雅黑";
+	float: left;
+	font-size: 15px;
+	width: 30%;
+	margin-left: 5px;
+}
+#order{
+	width: 100%;
+	height: 150px;
+}
+#order span{
+	font-size: 15px;
+	position: relative;
+	top: 10px;
+}
+#order a{
+	text-decoration: none;
+}
+#order #all{	
+	color: #A9A9A9;
+	position: relative;
+	left: 76%;	
+}
+#order .row a li{
+	color: #000000;
+	text-align: center;
+	list-style: none;
+	font-family: "微软雅黑";
+}
+#order .row img{
+	width: 13%;
+	height: 13%;
+}
+#zhgl{
+	width: 100%;
+	height: auto;
+	
+}
+#zhgl .xiala{
+	
+	height: auto;
+	font-size: 15px;
+	
+}
+#zhgl .xiugai{
+	display: none;
+	height: 300px;
+}
+#zhgl .xiugai button{
+	width: 200px;
+	margin-left: 30%;
+}
+@media screen and (max-width: 640px) {
+	#xiangqing .btn2{
+		position: relative;
+		left: 20PX;
+		margin: 5px 0 5px 0;
+	}
+	#order #all{	
+	left: 67%;	
+	}	
+}

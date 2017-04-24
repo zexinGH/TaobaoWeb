@@ -1,0 +1,303 @@
+/** {
+	margin: 0px;
+	padding: 0px;
+}*/
+#container{
+	/*margin: 0px;*/
+	width: 100%;
+	max-width: 640px;
+	min-width: 300px;
+	margin: 0 auto;
+	padding: 0px;
+	overflow: hidden;
+}
+a:link {
+	text-decoration: none;
+	color: black;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+#zhuanqu li {
+	float: left;
+	list-style: none;
+}
+.container {
+	width: 100%;
+	max-width: 640px;	
+}
+#head {
+	width: 100%;
+	height: auto;
+}
+#logo {
+	position: relative;
+	line-height: 50%;
+	width: 100%;
+	height: auto;
+	padding: 0px;
+}
+#logo .logo_1 {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+#Logo {
+	width: 12%;
+	height: auto;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+#text {
+	margin: 0px;
+	padding: 0px;
+	width: 40%;
+	position: absolute;
+	bottom: 10px;
+	left: 90px;
+}
+
+#col1{
+	margin-top: 50px;
+}
+
+#text div{
+	margin: 0px;
+	padding: 0px;
+}
+#text h1 {
+	width: 50%;
+	height: auto;
+	color: white;
+	font-size: 14px;
+}
+
+
+#redText {
+	width: 60px;
+	height: 21px;
+	background-color: red;
+	text-align: left;
+	line-height: 25px;
+}
+
+#textTop{
+	width:40%;
+	height: 40px;
+	position: absolute;
+	bottom: 20px;
+	right: 0px;
+	text-align: center;
+}
+
+#textTop span a{
+	color: white;
+}
+
+#textTop .dianpu{
+	width: 50%;
+	height: 100%;
+	background-color: green;
+	float: left;
+	/*line-height: 50px;*/
+	padding-top: 15px;
+}
+#textTop .fans{
+	width: 50%;
+	height: 100%;
+	line-height: 15px;
+	background-color: red;
+	float: left;
+	padding-top: 10px;
+}
+
+.category img {
+	margin: 5px;
+	width: 20px;
+	/*height: 15%;*/
+	height: auto;
+}
+
+.category .col-xs-3 {
+	padding: 0px;
+}
+.row {
+	margin: 0px auto;
+	padding: 0px;
+	text-align: center;
+}
+#bodyer {
+	width: 100%;
+	height: auto;
+}
+#bodyer #search {
+	width: 100%;
+	height: 55px;
+	background: url(../img/searchBg.png) repeat-x;
+	text-align: center;
+	padding-top: 20px;
+}
+#bodyer #search a {
+	color: #a9a9a9;
+}
+
+.item img{
+	width: 100%;
+}
+#youhuijuan {
+	text-align: center;
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+
+#youhuijuan a {
+	width: 100%;
+	height: auto;
+}
+#youhuijuan a img{
+	float: left;
+	width: 31%;
+	margin-left: 1.2%;
+	margin-right: 1.1%;
+}
+#zhuanqu {
+	width: 100%;
+	height: auto;
+	display: block;
+	/*margin: 0 auto;
+	margin-top: 20px;*/
+	clear: both;
+	padding-top: 10px;
+}
+#zhuanqu .imgbg {
+	margin: 0px auto;
+	width: 50%;
+	height: auto;
+	display: block;
+	padding: 0px;
+}
+
+#zhuanqu .li1 {
+	width: 50%;
+	height: auto;
+}
+
+#zhuanqu .li2{
+	width: 100%;
+	height: auto;
+}
+
+#zhuanqu img{
+	width: 100%;
+}
+
+.left1 {
+	float: left;
+}
+.right2 {
+	float: right;
+}
+#li2 {
+	float: left;
+}
+#dj_zq {
+	clear: both;
+	width: 100%;
+	height: auto;
+}
+#dj_zq img{
+	width: 100%;
+	margin-top: 20px;
+}
+#dj_sp {
+	width: 100%;
+	height: auto;
+	font-size: 15px;
+	margin: 0 auto;
+	padding: 0px;
+}
+#dj_sp ul li {
+	float: left;
+	width: 46%;
+	height: auto;
+	display: block;
+	/*margin: 0 auto;*/
+	padding: 0px;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 20px;
+}
+#dj_sp ul li a .name {
+	width: 100%;
+	height: auto;
+	/*height: 60px;*/
+	/*line-height: 30px;*/
+	display: -webkit-box;
+	display: block;
+	-webkit-box-orient: vertical;
+	display: box;
+	-webkit-line-clamp: 2;
+	word-break: break-all;
+	overflow: hidden;
+	color: aquamarine;
+}
+#dj_sp ul li .name1 {
+	color: red;
+}
+#dj_sp ul li a i {
+	width: 100%;
+	height: auto;
+	display: block;
+/*	background: url(../img/dj_19888.jpg);*/
+}
+
+#dj_sp ul li a i img{
+	width: 100%;
+	height: auto;
+}
+
+#all_sp {
+	width: 100%;
+	/*display: block;
+	margin: 0px auto;
+	clear: both;*/
+}
+#all_sp img{
+	width: 100%;
+}
+#footer {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin: 0px auto;
+	margin-top: 20px;
+	display: block;
+	position: relative;
+	text-align: center;
+}
+
+#footer .row{
+	width: 100%;
+	height: 20px;
+	position: absolute;
+	top: 20px;	
+	left: -5px;
+}
+
+#footer p{
+	width: 100%;
+	font-size: 12px;
+	color: #7FFFD4;
+	position: absolute;
+	top: 50%;
+}
+@media screen and (max-width: 640px) {
+
+	#footer .col-xs-3{
+		margin: 0 auto;
+		padding: 0px;
+	}
+}
